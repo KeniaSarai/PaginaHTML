@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 249, 246);
+    background-color: rgb(237, 232, 220);
 }
 
 /* ESTILO DE HEADER */
@@ -12,18 +12,26 @@ header {
     width: 1000px;
     /* Ancho */
     height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 115px;
+    margin-left: 150px;
 }
 
 .contenedor-del-texto {
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    padding: 120px;
     width: 900px;
     height: 400px;
-    padding: 40px;
     display: flex;
-    justify-content: flex-start;
+    position: relative;
     background-color: rgb(255, 255, 255);
     opacity: 35%;
     /* Arriba | Derecha | Abajo | Izquierda */
-    margin: -455px 0px 90px 48px;
+    margin: -575px 200px 150px 200px; 
 
 }
 
@@ -95,5 +103,28 @@ img {
 
 /* FOOTER */
 footer {
-    background-color: rgb(19, 84, 19);
+    min-height: 100px;
+    background-color: rgb(28, 120, 28);
+  }
+  
+footer .pie-de-pagina {
+    display: flex;
+    justify-content: space-between;
 }
+
+.iconos {
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+
+  .derechos-de-autor {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 20px;
+  }
