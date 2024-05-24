@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(250, 249, 246);
+}
+
+/* ESTILO DE HEADER */
+header {
+    background-color: rgb(28, 120, 28);
+}
+
+.fondo {
+    /* Largo */
+    width: 1000px;
+    /* Ancho */
+    height: 500px;
+}
+
+.contenedor-del-texto {
+    width: 900px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    opacity: 35%;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    margin: -455px 0px 90px 48px;
+
+}
+
+.contenedor-texto {
+    
+    text-align: justify;
+    /* Arriba | Derecha | Abajo | Izquierda */
+    padding: 75px 0px 0px 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+
+}
+
+/* ESTILO DE INTRODUCCIÓN */
+.subtitulo {
+    color: rgb(0, 0, 0);
+    font-size: 14px;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 15px 0px 0px 60px;
+
+}
+
+h1 {
+    color: rgb(14, 13, 13);
+    text-align: left;
+    margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 35px 0px;
+
+}
+
+p {
+    color: rgb(14, 13, 13) ;
+    margin-left: 100px;
+    margin-right: 400px;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    
+}
+
+/* ESTILO DE MAIN */
+img {
+    width: 400px;
+    height: 300px;
+}
+
+/* .card {
+    margin: -120px 0px 0px 60px;
+} */
+ 
+.card-text {
+    display: flex;
+    align-items: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.contenedores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mb-3 {
+     padding: 60px 300px 0px 300px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(19, 84, 19);
+}
